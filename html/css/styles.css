@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Styling for the profile section */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+/* Styling for the rounded image */
+.rounded-corners {
+    border-radius: 20%;
+}
+
+/* Styling for the main content card */
+.card {
+    text-align: left; /* Adjust text alignment as needed */
+    max-width: 800px;
+    margin: 20px auto; /* Center the card horizontally with top and bottom margin */
+    padding: 20px;
+    border: 3.5px solid #ccc;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
